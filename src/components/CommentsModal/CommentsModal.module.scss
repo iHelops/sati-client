@@ -1,0 +1,37 @@
+.comments-modal {
+    .comments {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-height: 660px;
+        overflow-y: auto;
+        margin-top: 25px;
+
+        &::-webkit-scrollbar {
+            width: 4px;
+            background-color: #F3F3F3;
+            border-radius: 100px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #d2d2d2;
+            border-radius: 100px;
+        }
+    }
+
+    .send {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 30px;
+
+        .button {
+            span {
+                font-size: 18px;
+                position: relative;
+                top: 1px;
+                left: 1px;
+            }
+        }
+    }
+}

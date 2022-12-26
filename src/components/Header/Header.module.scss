@@ -1,0 +1,28 @@
+.header {
+    margin-top: 20px;
+
+    .card > div {
+        display: flex;
+        align-items: center;
+    }
+
+    .search {
+        margin-left: auto;
+        width: 50%;
+    }
+
+    .user {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .dropdown {
+            color: rgba(0, 0, 0, 0.45);
+            padding: 10px;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

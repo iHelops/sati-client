@@ -1,0 +1,40 @@
+.action-button {
+    padding: 5px 10px;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    user-select: none;
+    transition: all .3s;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    .icon {
+        display: flex;
+        font-size: 20px;
+        color: #575757;
+    }
+
+    .text span {
+        font-size: 15px;
+        color: #575757;
+        position: relative;
+        top: -1px;
+    }
+
+    &.active {
+        background-color: #FF4242;
+        transition: all .3s;
+
+        .icon {
+            color: white;
+        }
+
+        .text span {
+            color: white;
+        }
+    }
+}

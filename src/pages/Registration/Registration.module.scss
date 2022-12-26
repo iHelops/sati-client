@@ -1,0 +1,22 @@
+.registration {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .card {
+        width: 350px;
+    }
+
+    .form {
+        button {
+            width: 100%;
+        }
+
+        & > div:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

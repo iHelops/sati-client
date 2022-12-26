@@ -1,0 +1,17 @@
+.home {
+    .posts {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .content {
+        margin-top: 10px;
+    }
+
+    .users {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
