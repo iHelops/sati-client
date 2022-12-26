@@ -1,4 +1,4 @@
-# sati-server
+# sati-client
 This is the client side of Sati's React blog. <br />
 The server part is in this repository: https://github.com/iHelops/sati-server
 
