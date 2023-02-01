@@ -1,5 +1,5 @@
 # sati-client
-[![Preview](https://i.imgur.com/cM7m342.png "Preview")](https://ihelops.github.io/sati-client "Preview")
+[![Preview](https://i.imgur.com/cM7m342.png "Preview")](https://github.com/iHelops/sati-client "Preview")
 
 This is the client side of Sati's React blog. <br />
 The server part is in this repository: https://github.com/iHelops/sati-server
